@@ -1,0 +1,14 @@
+{
+  "name": "needle.samples.questpro",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "@needle-tools/engine": ">= 1.0.0-pre",
+    "three": "^0.130"
+  },
+  "devDependencies": {
+	  "@needle-tools/engine": "file:H:\\git\\needle\\needle-engine-dev\\modules\\needle-engine\\js\\package~",
+	  "three": "npm:@needle-tools/three@^0.154.1"
+	}
+}

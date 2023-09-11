@@ -1,0 +1,31 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "type" : "module",
+  "scripts": {
+    "start": "vite --host",
+    "build:dev": "vite build",
+    "build:production": "npm run build:dev && npm run pack-gltf",
+    "pack-gltf": "npm run pack-gltf --prefix node_modules/@needle-tools/engine"
+  },
+  "dependencies": {
+    "@needle-tools/engine": "^3.3.0-alpha",
+    "three" : "npm:@needle-tools/three@^0.146.8",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@react-three/drei": "^9.0.1",
+    "@react-three/fiber": "^8.0.6",
+    "@needle-tools/react-three-fiber": "file:path/to/npmdef~"
+  },
+  "devDependencies": {
+    "@needle-tools/helper": "^0.7.2",
+    "@types/three": "0.146.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4",
+    "vite-plugin-compression": "^0.5.1",
+    "@vitejs/plugin-react": "^1.3.0",
+    "ansi-styles": "^6.1.0",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@needle-tools/line-drawing",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "three.meshline": "^1.4.0"
+  },
+  "peerDependencies": {
+    "@needle-tools/engine": "^3.2.5-alpha",
+    "three": "npm:@needle-tools/three@0.146.7"
+  },
+  "devDependencies": {
+	  "@needle-tools/engine": "file:/Users/herbst/git/needle-engine-dev/modules/needle-engine/js/package~",
+	  "three": "npm:@needle-tools/three@^0.154.3"
+	}
+}
